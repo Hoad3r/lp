@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "lp.html",
+      "src": "**/*",
       "use": "@vercel/static"
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/lp.html"
+      "src": "/",
+      "dest": "/lp.html"
     }
   ],
   "headers": [

@@ -1,0 +1,22 @@
+{
+  "name": "cross-over-landing",
+  "version": "1.0.0",
+  "description": "Landing page para Cross Over - Fornecedor de artigos esportivos",
+  "main": "lp.html",
+  "scripts": {
+    "download-images": "node download-images.js",
+    "dev": "npx http-server . -p 3000 -o",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "landing-page",
+    "esportes",
+    "cross-over",
+    "vercel"
+  ],
+  "author": "Cross Over",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 
